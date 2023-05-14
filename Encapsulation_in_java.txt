@@ -1,0 +1,22 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    Animal obj = new Animal();
+	    obj.setValue(101);
+	    System.out.println(obj.getValue());
+	   
+	    
+	}
+}
+
+class Animal {
+    private int value;
+    
+    public void setValue(int val){
+        value = val;
+    }
+    public int getValue(){
+        return value ;
+    }
+    
+}
